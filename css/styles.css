@@ -15,3 +15,46 @@ h1 {
 #result .red {
   color: #e74c3c;
 }
+
+.container {
+  text-align: center;
+  background-color: #3b3f46;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 50px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button#restart {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+#countdown {
+  font-size: 3em;
+  margin: 30px 0;
+}
+
+#result {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
